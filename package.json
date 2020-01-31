@@ -1,0 +1,20 @@
+{
+  "name": "hello-websockets",
+  "version": "1.0.0",
+  "description": "Hello git!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imcomingyyy/hello-websockets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imcomingyyy/hello-websockets/issues"
+  },
+  "homepage": "https://github.com/imcomingyyy/hello-websockets#readme"
+}

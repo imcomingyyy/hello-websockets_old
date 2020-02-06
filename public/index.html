@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    hello express!
+    <pre id ="log">
+
+    </pre>
+
+    <input name="message"/>
+    <button id="sendMessage">send chat message</button>
+
+    <script>
+    const ws = new WebSocket ('ws://localhost:8080');
+    const button =document.querySelector('#sendMessage');
+    const message =document.querySelector('[name="message"]');
+    const log =document.querySelector('#log');
+
+    button.addEventListener('click', function(){
+        ws.send(message.value);
+        message.value='';
+
+    });
+
+    ws.addEventListener('message',function(event){
+        log.innerHTML += '\n' + event.data;
+    });
+    </script>
+    <!-- using this link: http://10.0.1.77:8080/, same as localhost:8080 -->
+</body>
+</html>

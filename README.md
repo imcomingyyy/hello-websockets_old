@@ -1,5 +1,5 @@
 # Web III Project Timeline
-Hours:
+Hours:1.5
 ----------------------
 2.10.20
 test!

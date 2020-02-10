@@ -1,6 +1,6 @@
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    background-color: rgb(158, 218, 20);
     overflow: hidden;
     border-radius: 0.5em;
   }
@@ -83,13 +83,7 @@ li {
     position:relative; 
 }
 
-.para
-{
- 
-  width: 90%;
-  text-align: auto;
-  
-}
+
  
 
   

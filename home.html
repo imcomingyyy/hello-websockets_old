@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home</title>
+  <link href="home.css" type="text/css" rel="stylesheet" />
+</head>
+
+<section>
+<body>
+  <!-- navigation  -->
+  <div class="topnav" id="topnav">
+    <a href="home.html" class="active">Home</a>
+    <a href="resume.html">Resume</a>
+    <a href="project.html">Projects</a>
+    <a href="about.html">About</a>
+<!--  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>  -->
+  </div>
+
+  <div class= "para">
+    <h2>Resume Editor</h2>
+    <!-- page mapper -->
+    <ul>
+      <li><a href="#info">Basic Information</a></li>
+      <li><a href="#pro">Professional Profile and Education</a></li>
+      <li><a href="#skillSet">Summary of Professional Skills </a></li>
+      <li><a href="#exp">Employment Experiences</a></li>
+      
+      </ul> 
+      <hr>
+      <!-- intro about this page -->
+    <p>This is an intro</p>
+    <hr><!-- basic info -->
+    <h3 id ="info>Basic Information</h3>
+    <form action="resume.html">
+      <label "for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname"
+       placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" 
+      placeholder="Your last name..">
+
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email" 
+      placeholder="someone@some.com">
+      <br>
+      <br>
+      <hr><!-- profile ,certificate,and education -->
+      
+      <h3 id ="pro">Professional Profile and Education</h3>
+      <label for="profile">Profile</label><br>
+      <textarea id="profile" placeholder="An introduction about your self
+      " rows="4" cols="80"></textarea>
+     
+      <h3>Education</h3>
+      <label for="school">School</label>
+      <input type="text" id="school" name="school" 
+      placeholder="school name " size ="70">
+      <br>
+      <label for="major">Majors and Programs</label>
+      <input type="text" id="major" name="major" 
+      placeholder="ex: Accounting, Graphic Design Technology etc"
+      size ="50">
+      <br>
+      <label for="degree">Degree</label>
+      <input type="text" id="degree" name="degree" 
+      placeholder="ex: bachelor degree, Associate etc" size ="69">
+      <br>
+      <br>
+      <hr>
+      <h3 id ="skillSet">Summary of Professional Skills</h3>
+      <label for="skill">Skills</label>
+      <input type="text" id="skill" name="skill"
+      placeholder="ex: photoshop, css, certificate" size="65">
+      <button>Add</button>
+      <br>
+      <label for="project">Project</label><br>
+      <textarea id="project" placeholder="Describe any projects you had finished
+      " rows="10" cols="80"></textarea>
+      <br>
+      <br>
+      <hr>
+      <!-- Employment Experiences -->
+      <h3 id ="exp">Employment Experiences</h3>
+      <label for="jobTitle">Job Title</label>
+      <input type="text" id="jobTitle" name="jobTitle"
+       placeholder="Ex:a cashier, a cook, a driver etc" size="69">
+       <br>
+       <label for="company">Company</label>
+      <input type="text" id="company" name="company"
+       placeholder="Ex:amazon, google, yahoo" size="67">
+       <br>
+       <label for="city">City</label>
+      <input type="text" id="city" name="city"
+       placeholder="Ex:Apple Valley, Burnsville, etc" size="75">
+       <br>
+       <label for="state">State</label>
+      <input type="text" id="state" name="state"
+       placeholder="Ex:MN, , California etc" size="73">
+       <br>
+       <label for="dateHired">Date Started</label>
+      <input type="text" id="dateHired" name="dateHired"
+       placeholder="Ex:2/2/20,12/22/22 etc" size="63">
+       <br>
+       <label for="duty">Describe your responsibilities</label><br>
+       <textarea id="project" placeholder="Describe any responsibilities you had finished
+       " rows="10" cols="80"></textarea>
+
+  </div>
+
+    </form>
+
+ 
+</section>
+  <script>
+  
+  </script>
+
+</body>
+
+</html>

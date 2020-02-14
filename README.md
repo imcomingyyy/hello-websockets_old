@@ -1,5 +1,5 @@
-Resume Builder!!
-# Web III Project Timeline
+# Resume Builder!!
+Web III Project Timeline
 Hours:1.5
 ----------------------
 2.10.20
